@@ -1,0 +1,95 @@
+ 
+****************************************
+Report : area
+Design : SYS_TOP_dft
+Version: O-2018.06-SP1
+Date   : Wed Oct 21 21:03:25 2026
+****************************************
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/ICer/My_System/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                          940
+Number of nets:                          3168
+Number of cells:                         2202
+Number of combinational cells:           1714
+Number of sequential cells:               440
+Number of macros/black boxes:               0
+Number of buf/inv:                        277
+Number of references:                      26
+
+Combinational area:              14322.792644
+Buf/Inv area:                     1095.507724
+Noncombinational area:           13836.815826
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 28159.608471
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ------------------------------ 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-   Black-
+                                  Total       Total    national    national    boxes   Design
+--------------------------------  ----------  -------  ----------  ----------  ------  ---------------------------------------------------
+SYS_TOP_dft                       28159.6085    100.0     84.7224      0.0000  0.0000  SYS_TOP_dft
+ALU_CLK_MUX                          11.7670      0.0     11.7670      0.0000  0.0000  mux2x1_2
+ALU_TOP                            5671.6941     20.1   1023.7290    560.1092  0.0000  ALU_OPER_WIDTH8_test_1
+ALU_TOP/add_43                      231.8099      0.8    231.8099      0.0000  0.0000  ALU_OPER_WIDTH8_DW01_add_0
+ALU_TOP/div_52                     1434.3973      5.1   1434.3973      0.0000  0.0000  ALU_OPER_WIDTH8_DW_div_uns_0
+ALU_TOP/mult_49                    2155.7144      7.7   1914.4909      0.0000  0.0000  ALU_OPER_WIDTH8_DW02_mult_0
+ALU_TOP/mult_49/FS_1                241.2235      0.9    241.2235      0.0000  0.0000  ALU_OPER_WIDTH8_DW01_add_1
+ALU_TOP/sub_46                      265.9342      0.9    265.9342      0.0000  0.0000  ALU_OPER_WIDTH8_DW01_sub_0
+ASYNC_FIFO_TOP                     8120.4070     28.8      0.0000      0.0000  0.0000  Async_fifo_D_SIZE8_A_SIZE4_P_SIZE5_F_DEPTH16_test_1
+ASYNC_FIFO_TOP/u_fifo_mem          6300.0520     22.4   2079.2290   4220.8231  0.0000  fifo_mem_A_SIZE4_D_SIZE8_F_DEPTH16_P_SIZE5_test_1
+ASYNC_FIFO_TOP/u_fifo_rd            580.1131      2.1    250.6371    329.4760  0.0000  fifo_rd_P_SIZE5_test_1
+ASYNC_FIFO_TOP/u_fifo_wr            571.8762      2.0    241.2235    330.6527  0.0000  fifo_wr_P_SIZE5_test_1
+ASYNC_FIFO_TOP/u_r2w_sync           338.8896      1.2      0.0000    338.8896  0.0000  DF_Sync_DATA_SIZE5_test_0
+ASYNC_FIFO_TOP/u_w2r_sync           329.4760      1.2      0.0000    329.4760  0.0000  DF_Sync_DATA_SIZE5_test_1
+CLKDIV_MUX_TOP                       95.3127      0.3     95.3127      0.0000  0.0000  CLKDIV_MUX_WIDTH8
+CLK_GATE_TOP                         22.3573      0.1      5.8835     16.4738  0.0000  CLK_GATE
+CLK_RX_MUX                           11.7670      0.0     11.7670      0.0000  0.0000  mux2x1_3
+CLK_RX_TOP                          851.9308      3.0    373.0139    295.3517  0.0000  clk_div_DATA_WIDTH8_test_0
+CLK_RX_TOP/add_22                    91.7826      0.3     91.7826      0.0000  0.0000  clk_div_DATA_WIDTH8_1_DW01_inc_1
+CLK_RX_TOP/add_54                    91.7826      0.3     91.7826      0.0000  0.0000  clk_div_DATA_WIDTH8_1_DW01_inc_0
+CLK_TX_MUX                           11.7670      0.0     11.7670      0.0000  0.0000  mux2x1_4
+CLK_TX_TOP                          851.9308      3.0    373.0139    295.3517  0.0000  clk_div_DATA_WIDTH8_test_1
+CLK_TX_TOP/add_22                    91.7826      0.3     91.7826      0.0000  0.0000  clk_div_DATA_WIDTH8_0_DW01_inc_1
+CLK_TX_TOP/add_54                    91.7826      0.3     91.7826      0.0000  0.0000  clk_div_DATA_WIDTH8_0_DW01_inc_0
+DATA_SYNC_TOP                       480.0936      1.7     84.7224    395.3712  0.0000  DATA_SYNC_BUS_WIDTH8_NUM_STAGES2_test_1
+PULSE_GEN_TOP                        71.7787      0.3      5.8835     65.8952  0.0000  PULSE_GEN_test_1
+REF_CLK_MUX                          12.9437      0.0     12.9437      0.0000  0.0000  mux2x1_1
+RST_MUX                              11.7670      0.0     11.7670      0.0000  0.0000  mux2x1_5
+RST_SYNC_REF                         65.8952      0.2      0.0000     65.8952  0.0000  RST_SYNC_NUM_STAGES2_test_0
+RST_SYNC_UART                        65.8952      0.2      0.0000     65.8952  0.0000  RST_SYNC_NUM_STAGES2_test_1
+RegFile_TOP                        6704.8368     23.8   2191.0155   4513.8214  0.0000  RegFile_WIDTH8_DEPTH16_ADDR4_test_1
+SYNC_RST_REF_MUX                     16.4738      0.1     16.4738      0.0000  0.0000  mux2x1_0
+SYNC_RST_UART_MUX                    15.2971      0.1     15.2971      0.0000  0.0000  mux2x1_7
+SYS_CTRL_TOP                        973.1309      3.5    706.0200    267.1109  0.0000  SYS_CTRL_DATA_WIDTH8_ADDR4_test_1
+UART_CLK_MUX                         11.7670      0.0     11.7670      0.0000  0.0000  mux2x1_6
+UART_TOP                           3996.0733     14.2      0.0000      0.0000  0.0000  UART_DATA_WIDTH8_test_1
+UART_TOP/U0_UART_RX                2665.2256      9.5      7.0602      0.0000  0.0000  UART_RX_test_1
+UART_TOP/U0_UART_RX/U0_data_sampling
+                                    602.4704      2.1    470.6800    131.7904  0.0000  data_sampling_test_1
+UART_TOP/U0_UART_RX/U0_deserializer
+                                    516.5713      1.8    252.9905    263.5808  0.0000  deserializer_DATA_WIDTH8_test_1
+UART_TOP/U0_UART_RX/U0_edge_bit_counter
+                                    701.3132      2.5    370.6605    330.6527  0.0000  edge_bit_counter_test_1
+UART_TOP/U0_UART_RX/U0_par_chk      143.5574      0.5    110.6098     32.9476  0.0000  par_chk_DATA_WIDTH8_test_1
+UART_TOP/U0_UART_RX/U0_stp_chk       44.7146      0.2     11.7670     32.9476  0.0000  stp_chk_test_1
+UART_TOP/U0_UART_RX/U0_strt_chk      44.7146      0.2     11.7670     32.9476  0.0000  strt_chk_test_1
+UART_TOP/U0_UART_RX/U0_uart_fsm     604.8238      2.1    505.9810     98.8428  0.0000  uart_rx_fsm_DATA_WIDTH8_test_1
+UART_TOP/U0_UART_TX                1330.8477      4.7      0.0000      0.0000  0.0000  UART_TX_DATA_WIDTH8_test_1
+UART_TOP/U0_UART_TX/U0_Serializer   555.4024      2.0    192.9788    362.4236  0.0000  Serializer_WIDTH8_test_1
+UART_TOP/U0_UART_TX/U0_fsm          221.2196      0.8     89.4292    131.7904  0.0000  uart_tx_fsm_test_1
+UART_TOP/U0_UART_TX/U0_mux           58.8350      0.2     27.0641     31.7709  0.0000  mux_test_1
+UART_TOP/U0_UART_TX/U0_parity_calc
+                                    495.3907      1.8    198.8623    296.5284  0.0000  parity_calc_WIDTH8_test_1
+--------------------------------  ----------  -------  ----------  ----------  ------  ---------------------------------------------------
+Total                                                  14322.7926  13836.8158  0.0000
+
+1

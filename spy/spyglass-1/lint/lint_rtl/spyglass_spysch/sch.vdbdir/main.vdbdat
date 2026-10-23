@@ -1,0 +1,32 @@
+#x HLBEGIN S.1
+#x {}
+#x 134 { @@n 0 @@p 0 }
+#x HLEND
+#x HLBEGIN S.2
+#x {}
+#x 134 { @@n 1 @@p 1 }
+#x HLEND
+#x HLBEGIN S.3
+#x {}
+#x 134 { @@n 3 @@p 3 }
+#x HLEND
+#x HLBEGIN S.4
+#x {{COLOR=>1;}}
+#x 78 { @@i 2 a 0 }
+#x HLEND
+#x HLBEGIN S.5
+#x {{COLOR=>2;}{COLOR=>1;}{COLOR=>3;}}
+#x !{6 0 0 -4 1 0}
+#x 134 { @@d 2 { @@i 12 a 0 @@i 33 a 0 @@i 37 a 1 @@i 57 a 2 @@t 57 0 a 0
+#x @@t 57 1 a 0 @@t0 0 57 0 @@t0 1 12 1 @@t0 2 12 0 @@t0 3 33 1 @@t0 4 33 0
+#x @@t0 5 57 1 @@t1 1 37 0 @@t1 2 37 2 @@t1 3 57 0 } @@d 5 { @@d 0 { @@d 0 {
+#x @@t1 0 38 2 } } } }
+#x HLEND
+#x HLBEGIN S.6
+#x {{COLOR=>2;}{COLOR=>1;}{COLOR=>3;}}
+#x !{6 0 0 -4 1 0}
+#x 134 { @@d 4 { @@i 12 a 0 @@i 33 a 0 @@i 37 a 1 @@i 57 a 2 @@t 57 0 a 0
+#x @@t 57 1 a 0 @@t0 0 57 0 @@t0 1 12 1 @@t0 2 12 0 @@t0 3 33 1 @@t0 4 33 0
+#x @@t0 5 57 1 @@t1 1 37 0 @@t1 2 37 2 @@t1 3 57 0 } @@d 5 { @@d 1 { @@d 0 {
+#x @@t1 0 72 2 } } } }
+#x HLEND

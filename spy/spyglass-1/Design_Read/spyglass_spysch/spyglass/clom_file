@@ -1,0 +1,93 @@
+##This file is genrated to have command line decompiled Info even in Console
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
+--goal_info     Design_Read@      CmdLine -                              -
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 39
+-batch          <ON>              CmdLine -                              -
+-dbdir          ./spyglass-1/.SG_SaveRestoreDB CmdLine -                              -
+-enable_save_restore <ON>              CmdLine -                              -
+-enable_save_restore_builtin true              CmdLine -                              -
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 29
+-lib            WORK=>./spyglass-1/WORK CmdLine -                              -
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdLine -                              -
+-nl             <ON>              CmdLine -                              -
+-policy         none              CmdFile $SPYGLASS_HOME/auxi/policy_data/spyglass/design_read/Design_Read-mixed.spq 1
+-projectwdir    ./spyglass-1      CmdLine -                              -
+-report         moresimple        Config  $SPYGLASS_HOME/.spyglass.setup 17
+-sortmethod     du                Config  $SPYGLASS_HOME/.spyglass.setup 27
+-template       Design_Read       CmdLine -                              -
+-templatedir    /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/auxi/policy_data/spyglass/design_read CmdLine -                              -
+-wdir           ./spyglass-1/Design_Read CmdLine -                              -
+<design_files>  /home/ICer/system/My_RTL/ALU/ALU.v APICall -                              -
+                /home/ICer/system/My_RTL/ASYNC_FIFO/Async_fifo.v APICall -                              -
+                /home/ICer/system/My_RTL/ASYNC_FIFO/DF_Sync.v APICall -                              -
+                /home/ICer/system/My_RTL/ASYNC_FIFO/fifo_mem.v APICall -                              -
+                /home/ICer/system/My_RTL/ASYNC_FIFO/fifo_rd.v APICall -                              -
+                /home/ICer/system/My_RTL/ASYNC_FIFO/fifo_wr.v APICall -                              -
+                /home/ICer/system/My_RTL/CLKDIV_MUX/CLKDIV_MUX.v APICall -                              -
+                /home/ICer/system/My_RTL/CLK_DIV/clk_div.v APICall -                              -
+                /home/ICer/system/My_RTL/CTRL/SYS_CTRL.v APICall -                              -
+                /home/ICer/system/My_RTL/Clock_Gating/CLK_GATE.v APICall -                              -
+                /home/ICer/system/My_RTL/DATA_SYNC/DATA_SYNC.v APICall -                              -
+                /home/ICer/system/My_RTL/PULSE_GEN/PULSE_GEN.v APICall -                              -
+                /home/ICer/system/My_RTL/RST_SYNC/RST_SYNC.v APICall -                              -
+                /home/ICer/system/My_RTL/RegFile/RegFile.v APICall -                              -
+                /home/ICer/system/My_RTL/Top/SYS_TOP.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/Serializer.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/UART.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/UART_RX.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/UART_TX.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/data_sampling.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/deserializer.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/edge_bit_counter.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/mux.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/par_chk.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/parity_calc.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/stp_chk.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/strt_chk.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/uart_rx_fsm.v APICall -                              -
+                /home/ICer/system/My_RTL/UART/uart_tx_fsm.v APICall -                              -
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/spyglass
+txv             SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/txv
+timing          SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/timing
+starcad-21      SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/starcad-21
+starc2005       SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/starc2005
+starc2002       SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/starc2002
+starc           SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/starc
+simulation      SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/simulation
+power_est       SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/power_est
+openmore        SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/openmore
+morelint        SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/morelint
+miscellaneous   SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/miscellaneous
+lowpower        SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/lowpower
+lint            SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/lint
+latch           SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/latch
+erc             SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/erc
+dft_dsm         SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/dft_dsm
+dft             SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/dft
+constraints     SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/constraints
+const_intern1   SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/constraints
+clock-reset     SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/clock
+area            SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/area
+Audits          SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/Audits
+
+
